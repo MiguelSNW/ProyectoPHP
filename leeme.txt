@@ -1,0 +1,18 @@
+==== UTILIZACIÓN DE CONTROLADOR FRONTAL DE LARAVEL
+     PARA REALIZAR LA APLICACIÓN DE EJEMPLO ===
+Se toma como base el ejemplo MVC_Ejemplos\2 - ctrl_frontal\frontal4_POO
+
+Nota: Todos los ficheros deben estar en el espacio de nombres App\Carpeta\...
+
+1º Se copia el fichero Tareas que es el modelo en la carpeta app/models
+   - Se le pone el espacio de nombres App\models
+   - El fichero y modelo se deben llamar igual
+
+
+
+2º Aunque no es un modelo, se copia el fichero GestorErrores en la carpeta Models para acceder a él. Para hacerlo
+ bien se podría crear una carpeta Lib en app y poner allí
+
+3º Se copian las vistas en la carpeta "resource/views". Se eliminan las constantes y los enlaces se actualizan
+
+4º Se añaden las rutas al ficheros "routes/web.php"
